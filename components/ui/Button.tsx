@@ -1,4 +1,4 @@
-import {Button } from "@/app/_components/Button"
+import Button from "@/app/_components/Button"
 import { useToast } from "@/hooks/use-toast"
 
 export const ToastDemo = () => {
