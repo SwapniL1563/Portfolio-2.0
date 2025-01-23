@@ -2,20 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-poppins);
+  background-color: #070707;
+
 }
+
+/* text-color and bg-color */
+
+.primary{
+  color: #3B82F6;
+}
+
+.primary-bg{
+  background-color: #3B82F6;
+}
+
+.secondary{
+  color:#9E9E9E;
+}
+
+.glass{
+  background: rgba(125, 125, 125, 0.2);
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 10px;
+}
+
+.glass1{
+  background: rgba(102, 102, 102, 0.2);
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 10px;
+}
+
+.no-color{
+  filter: grayscale(100);
+}
+
+.color{
+  filter: grayscale(0);
+}
+
+h1::selection{
+  background-color: rgb(39, 39, 39);
+}
+
+span::selection{
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+
+
+
+
+
+
+
