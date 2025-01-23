@@ -26,13 +26,15 @@ const About = () => {
                     <Button   value='Github'></Button>
                     </Link>
 
-                    <Link className='text-[0.7rem] md:text-sm' href="" target='/'>
-                    <Button value='Mail'></Button>
-                    </Link>
-
-                    <Link className='text-[0.7rem] md:text-sm' href="" target='/'>
+                    <Link className='text-[0.7rem] md:text-sm' href="https://www.linkedin.com/in/swapnil-chorat-570497344/" target='/'>
                     <Button value='LinkedIn'></Button>
                     </Link>
+
+                    <Link className='text-[0.7rem] md:text-sm' href="resume swap.pdf" download="resume" target='/'>
+                    <Button value='Resume'></Button>
+                    </Link>
+
+                  
                 </div>
 
               </div>
