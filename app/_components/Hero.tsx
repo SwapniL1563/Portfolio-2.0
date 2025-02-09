@@ -19,7 +19,7 @@ const Hero = ({value}:any) => {
             {/* Hero-button */}
             <div className='flex  md:flex-row  items-center gap-1 md:gap-2 mt-4 '>
             <Link href='/projects'  ><Button value="See My Work"></Button></Link>
-            <Link target='/' href="resume swap.pdf" download="resume"  className='flex justify-center gap-4 px-3 py-2 md:px-6 md:py-3 text-md rounded-md text-gray-300 hover:text-white'><h1>Resume</h1> <Download className="primary"/></Link>
+            <Link target='/' href="resume swapnil.pdf" download="resume"  className='flex justify-center gap-4 px-3 py-2 md:px-6 md:py-3 text-md rounded-md text-gray-300 hover:text-white'><h1>Resume</h1> <Download className="primary"/></Link>
             </div>
         </div>
     </div>
