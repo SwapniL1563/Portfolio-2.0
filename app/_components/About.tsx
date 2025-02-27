@@ -30,7 +30,7 @@ const About = () => {
                     <Button value='LinkedIn'></Button>
                     </Link>
 
-                    <Link className='text-[0.7rem] md:text-sm' href="resume swapnil.pdf" download="resume" target='/'>
+                    <Link className='text-[0.7rem] md:text-sm' href="swapnil resume.pdf" download="resume" target='/'>
                     <Button value='Resume'></Button>
                     </Link>
 
