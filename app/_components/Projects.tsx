@@ -27,12 +27,11 @@ const Projects = () => {
               <div className='pt-6 '>
                <h1 className='text-white text-md md:text-xl font-semibold'>Med Nutri</h1>
                <div className='grid grid-cols-3  md:w-2/3 gap-1 md:gap-2 text-center  mt-3 mb-2 md:mb-2 text-xs '>
-                <Button value='MERN stack' ></Button>
-                <Button value='Tailwind CSS'></Button>
+                <Button value='MERN' ></Button>
+                <Button value='Tailwind'></Button>
                 <Button value='Gemini'></Button>
                 <Button value='Jwt'></Button>
                 <Button value='Nodemailer'></Button>
-                <Button value='RechartJS'></Button>
                 <Button value='Postman'></Button>
                </div>
 
