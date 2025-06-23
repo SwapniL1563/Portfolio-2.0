@@ -25,7 +25,7 @@ const Projects = () => {
               </div>
              
               <div className='pt-6 '>
-               <h1 className='text-white text-md md:text-xl font-semibold'>Med Nutri</h1>
+               <h1 className='text-white text-md md:text-xl font-semibold'>MED NUTRI</h1>
                <div className='grid grid-cols-3  md:w-2/3 gap-1 md:gap-2 text-center  mt-3 mb-2 md:mb-2 text-xs '>
                 <Button value='MERN' ></Button>
                 <Button value='Tailwind'></Button>
