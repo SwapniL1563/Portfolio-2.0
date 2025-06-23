@@ -37,7 +37,7 @@ const Projects = () => {
                </div>
 
                <div className=' flex justify-end rounded-lg '>
-               <Link target='/' href='https://forever-frontend-73ey.onrender.com/'>
+               <Link target='/' href='https://mednutri-frontend.vercel.app/'>
                 <button title='bt1' className='px-7 py-3 md:px-10 md:py-4 primary-bg rounded-xl hover:bg-[#2174fb] '> <MoveUpRight size={30}/></button>
                </Link>
                </div>
