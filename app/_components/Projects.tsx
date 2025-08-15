@@ -45,7 +45,7 @@ const Projects = () => {
 
           <div className='px-4 pt-5 pb-7 md:px-7 mb:pt-7 md:pb-8 glass rounded-2xl  overflow-hidden relative '>
               <div className='w-full relative mx-auto h-auto overflow-hidden rounded-2xl'>
-              <img src="/m1.jpg"  className='z-0 relative w-full rounded-2xl transition-all duration-300 hover:scale-110' alt="" /> 
+              <img src="/m5.png"  className='z-0 relative w-full rounded-2xl transition-all duration-300 hover:scale-110' alt="" /> 
               </div>
              
               <div className='pt-6 '>
