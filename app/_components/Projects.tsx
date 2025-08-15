@@ -105,7 +105,7 @@ const Projects = () => {
                </div>
 
                <div className=' flex justify-end rounded-lg '>
-               <Link target='/' href='https://swapnil1563.github.io/Virtual-Reality/'>
+               <Link target='/' href='https://recipe-finder-frontend-rho.vercel.app/'>
                 <button title='bt1' className='px-7 py-3 md:px-10 md:py-4 primary-bg rounded-xl hover:bg-[#2174fb] '> <MoveUpRight size={30}/></button>
                </Link>
                </div>
