@@ -49,17 +49,18 @@ const Projects = () => {
               </div>
              
               <div className='pt-6 '>
-               <h1 className='text-white text-md md:text-xl font-semibold'>FOREVER ECOMMERCE</h1>
+               <h1 className='text-white text-md md:text-xl font-semibold'>FIX IT</h1>
                <div className='grid grid-cols-3  md:w-2/3 gap-1 md:gap-2 text-center  mt-3 mb-2 md:mb-2 text-xs '>
-                <Button value='ReactJS' ></Button>
-                <Button value='NodeJS'></Button>
-                <Button value='Express'></Button>
-                <Button value='MongoDB'></Button>
+                <Button value='NextJS' ></Button>
+                <Button value='Typescript'></Button>
+                <Button value='Prisma'></Button>
+                <Button value='PostgreSQL'></Button>
+                <Button value='Stripe'></Button>
                 <Button value='Tailwind'></Button>
                </div>
 
                <div className=' flex justify-end rounded-lg '>
-               <Link target='/' href='https://forever-frontend-73ey.onrender.com/'>
+               <Link target='/' href='https://fix-it-phi.vercel.app'>
                 <button title='bt1' className='px-7 py-3 md:px-10 md:py-4 primary-bg rounded-xl hover:bg-[#2174fb] '> <MoveUpRight size={30}/></button>
                </Link>
                </div>
