@@ -19,7 +19,7 @@ const About = () => {
             {/* Info-sec */}/
             <div className='flex flex-col justify-start md:justify-center items-start gap-2 md:ml-14'>
                 <h1 className='text-xl md:text-3xl font-semibold primary mb-1 md:mb-4'>Web Developer</h1>
-                <p className='text-xs leading-4 md:leading-6 md:text-[1rem] md:w-10/12 secondary mb-3 md:mb-6'>Hi, I'm Swapnil Chorat, a passionate Fullstack Web developer based in India, currently in my final year of Mechatronics Engineering at Terna Engineering College. With expertise in modern web technologies like Next.js, React, Node.js, MongoDB,etc, I also specialize in building creative, functional, and user-centric websites.</p>
+                <p className='text-xs leading-4 md:leading-6 md:text-[1rem] md:w-10/12 secondary mb-3 md:mb-6'>Hi, I'm Swapnil Chorat, a passionate Fullstack Web developer based in Navi Mumbai, recently completed my bachelors in Mechatronics Engineering at Terna Engineering College. With expertise in modern web technologies like Next.js, React, Node.js, MongoDB,etc, I also specialize in building creative, functional, and user-centric websites.</p>
                 {/* Social-links */}
                 <div className='flex gap-2 md:mb-4'>
                     <Link className='text-[0.7rem] md:text-sm' href="https://github.com/SwapniL1563" target='/'>
