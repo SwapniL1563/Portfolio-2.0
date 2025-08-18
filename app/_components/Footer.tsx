@@ -16,7 +16,7 @@ const Footer = () => {
               <Link href='https://www.linkedin.com/in/swapnil-chorat-570497344/'>
               <LinkedinIcon color='#4b5563'   size={25}/>
               </Link>
-              <Link href=''>
+              <Link href='https://x.com/ChoratSwap55632'>
               <TwitterIcon color='#4b5563'   size={25}/>
               </Link>
               <Link href=''>
