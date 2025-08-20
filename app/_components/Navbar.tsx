@@ -4,7 +4,7 @@ import { CircleUserRound, FolderOpenDot, LayoutGrid, Phone } from 'lucide-react'
 
 const Navbar = () => {
   return (
-   <div className=' sticky z-50 left-1/2 right-1/2 top-7 flex justify-center'>
+   <div className='fixed z-50 left-1/2 right-1/2 top-7 flex justify-center'>
      <div className=' glass px-6 py-4 flex items-center justify-center gap-5 rounded-md '>
        {/* Navbar-Links */}
        <Link href='/'>

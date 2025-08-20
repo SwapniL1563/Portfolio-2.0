@@ -5,6 +5,8 @@
 body {
   font-family: var(--font-poppins);
   background-color: #070707;
+  --animate-cell-ripple: cell-ripple var(--duration, 200ms) ease-out none 1
+  var(--delay, 0ms);
 
 }
 
@@ -54,8 +56,17 @@ span::selection{
 }
 
 
-
-
+  @keyframes cell-ripple {
+    0% {
+      opacity: 0.4;
+    }
+    50% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 0.4;
+    }
+  }
 
 
 

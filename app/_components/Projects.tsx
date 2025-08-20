@@ -5,7 +5,7 @@ import { ArrowLeftSquare, ArrowRight, ArrowRightSquare, MoveUpRight } from 'luci
 
 const Projects = () => {
   return (
-    <div className='  my-14 flex justify-center '>
+    <div className='my-24  md:my-14 flex justify-center '>
         <div className=' md:w-3/4 w-10/12'>
          
          {/* Project's-Title */}
