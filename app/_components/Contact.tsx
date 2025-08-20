@@ -40,7 +40,7 @@ export default function Contact() {
   }
 
   return (
-    <div className="my-24 flex justify-center">
+    <div className="my-24 flex justify-center bg-[#070707]">
       <div className="md:w-3/4 w-10/12">
         {/* Form Section */}
         <form className="w-full md:w-[45%] text-white" onSubmit={handleSubmit}>

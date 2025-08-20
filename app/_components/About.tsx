@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <div className=' flex justify-center mt-24
+    <div className=' flex justify-center mt-24 bg-[#070707]
      md:mt-28 relative'>
         <div className='md:w-3/4 w-10/12   md:py-6'>
            < Image src='/grid-final.png' priority width={500} height={800} className='w-0 object-fill md:w-[75%] h-full absolute  z-[-1] opacity-[0.07] ' alt='grid'></Image>

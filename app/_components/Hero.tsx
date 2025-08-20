@@ -8,7 +8,7 @@ import { BackgroundRippleEffect } from '@/components/ui/background-ripple-effect
 
 const Hero = ({value}:any) => {
   return (
-    <div className='py-40 md:py-40 relative  flex items-center justify-center'>
+    <div className='py-40 md:py-40 relative  flex items-center justify-center bg-gray-300/5'>
         {/* < Image src='/grid-final.png' priority width={500} height={500} className='object-cover md:object-fill w-full h-screen absolute top-0 z-[-1] opacity-[0.06] ' alt='grid'></Image> */}
         <BackgroundRippleEffect/>
         {/* Hero-content */}
